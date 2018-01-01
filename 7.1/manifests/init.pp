@@ -43,7 +43,7 @@ file { '/usr/local/bin/php-wrapper':
 }
 
 # add 'ppa:ondrej/php' repository
-$dependency_apt = ['software-properties-common', 'python-software-properties']
+$dependency_apt = ['locales', 'software-properties-common', 'python-software-properties']
 package { $dependency_apt: ensure => present }
 
 exec { 'install-ppa':
