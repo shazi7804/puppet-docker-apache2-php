@@ -9,6 +9,7 @@ env:
   - PHP_VERSION=7.1 TAG=latest
 install:
   - ./scripts/puppet_install.sh
+  - /opt/puppetlabs/bin/puppet module install puppetlabs/image_build
 before_script:
   - env | sort
   - cd "$PHP_VERSION"
