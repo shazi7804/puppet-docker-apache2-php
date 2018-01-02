@@ -14,7 +14,7 @@ install:
 before_script:
   - env | sort
   - cd "$PHP_VERSION"
-  - sed -i "s/${PROJECT}/${PROJECT}:${TAG}" metadata.yaml
+  - sed -i "s/${PROJECT}/${PROJECT}:${TAG}/g" metadata.yaml
   - image="${REPO}:${PHP_VERSION}"
 script:
   - /opt/puppetlabs/bin/puppet docker build
