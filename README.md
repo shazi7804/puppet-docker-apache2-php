@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/shazi7804/puppet-docker-apache2-php.svg?branch=master)](https://travis-ci.org/shazi7804/puppet-docker-apache2-php)
+[![Build Status](https://travis-ci.org/shazi7804/puppet-docker-apache2-php7.svg?branch=master)](https://travis-ci.org/shazi7804/puppet-docker-apache2-php7)
 # What is this?
   The repository is build docker images built on [Ubuntu 16.04](http://releases.ubuntu.com/16.04/) by puppet.
 
